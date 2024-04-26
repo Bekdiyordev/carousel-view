@@ -34,10 +34,15 @@ class MainActivity : AppCompatActivity() {
         dataList.add(Item(R.drawable.img_10, "Title 10"))
         dataList.add(Item(R.drawable.img_11, "Title 11"))
         dataList.add(Item(R.drawable.img_12, "Title 12"))
+        dataList.add(Item(R.drawable.img_13, "Title 13"))
+        dataList.add(Item(R.drawable.img_14, "Title 14"))
+        dataList.add(Item(R.drawable.img_15, "Title 15"))
+        dataList.add(Item(R.drawable.img_16, "Title 16"))
+        dataList.add(Item(R.drawable.img_17, "Title 17"))
         adapter.submitList(dataList)
     }
 
-    private fun setupUI() = with(binding){
+    private fun setupUI() = with(binding) {
         carouselRecycler.adapter = adapter
     }
 }

@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.animation.AnimationUtils.lerp
 import uz.beko404.carouselview.databinding.ItemBinding
 import uz.beko404.carouselview.model.Item
 
@@ -32,7 +31,6 @@ class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
             itemTitle.text = dif.currentList[position].title
             carouselItemContainer.setOnMaskChangedListener { maskRect ->
                 itemTitle.translationX = maskRect.left
-//                itemTitle.alpha = lerp(1f,1f,0.3f,1f, maskRect.left)
             }
         }
     }
