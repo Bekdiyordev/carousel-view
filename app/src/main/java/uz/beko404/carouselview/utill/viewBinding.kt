@@ -1,4 +1,4 @@
-package uz.beko404.sharedelementtransaction.utill
+package uz.beko404.carouselview.utill
 
 import android.view.LayoutInflater
 import android.view.View

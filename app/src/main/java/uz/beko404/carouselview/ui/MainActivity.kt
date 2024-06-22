@@ -6,7 +6,7 @@ import uz.beko404.carouselview.R
 import uz.beko404.carouselview.adapter.Adapter
 import uz.beko404.carouselview.databinding.ActivityMainBinding
 import uz.beko404.carouselview.model.Item
-import uz.beko404.sharedelementtransaction.utill.viewBinding
+import uz.beko404.carouselview.utill.viewBinding
 
 class MainActivity : AppCompatActivity() {
     private val binding by viewBinding(ActivityMainBinding::inflate)
